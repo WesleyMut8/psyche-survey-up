@@ -1,0 +1,62 @@
+{
+  "SEXO": {
+    "0": 1.0
+  },
+  "FAMILIA_MNT_RUIM": {
+    "0": 3.0
+  },
+  "SALARIO": {
+    "0": 2000.0
+  },
+  "HORAS": {
+    "0": 30
+  },
+  "ESCOLARIDADE": {
+    "0": 10
+  },
+  "MORADIA": {
+    "0": 1.0
+  },
+  "ATV_FISICA": {
+    "0": 1.0
+  },
+  "ALCOOL": {
+    "0": 1.0
+  },
+  "NAO_TRAB_MTV_SAUDE": {
+    "0": 2.0
+  },
+  "CONSUMO_SAL": {
+    "0": 4.0
+  },
+  "TRABALHA": {
+    "0": 2.0
+  },
+  "FUMA": {
+    "0": 3.0
+  },
+  "IMC": {
+    "0": 25.9
+  },
+  "PENSAMENTOS_NEGATIVOS": {
+    "0": 1.0
+  },
+  "CARNES": {
+    "0": 1.0
+  },
+  "ALIMENTOS_PREJUDICIAIS": {
+    "0": 0.0
+  },
+  "ALIMENTOS_SAUDAVEIS": {
+    "0": 7.0
+  },
+  "ESTADO_SAUDE": {
+    "0": 1.0
+  },
+  "CONSULTA_MEDICA": {
+    "0": 1.0
+  },
+  "DEPRESSAO": {
+    "0": 1.0
+  }
+}

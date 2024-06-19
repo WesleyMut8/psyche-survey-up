@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "type": "boolean",
+    "question": "Qual é a sua cor favorita?",
+    "options": [
+      "Vermelho",
+      "Azul",
+      "Verde",
+      "Amarelo"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "number",
+    "question": "Qual é o seu animal favorito?",
+    "options": [
+      "Cachorro",
+      "Gato",
+      "Pássaro",
+      "Peixe"
+    ]
+  }
+]

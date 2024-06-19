@@ -1,0 +1,41 @@
+// Breakpoints
+@mixin breakpoint ($point) {
+  @if $point == 'xs' {
+    @media (max-width: 600px) { @content; }
+  } @else if $point == 'sm' {
+    @media (min-width: 600px) and (max-width: 960px) { @content; }
+  } @else if $point == 'md' {
+    @media (min-width: 961px) and (max-width: 1280px) { @content; }
+  } @else if $point == 'lg' {
+    @media (min-width: 1281px) and (max-width: 1920px) { @content; }
+  } @else {
+    @media (min-width: 1200px) { @content; }
+  }
+}
+
+@mixin breakpoint-and-down ($point) {
+  @if $point == 'xs' {
+    @media (max-width: 600px) { @content; }
+  } @else if $point == 'sm' {
+    @media (max-width: 960px) { @content; }
+  } @else if $point == 'md' {
+    @media (max-width: 1366px) { @content; }
+  } @else if $point == 'lg' {
+    @media (max-width: 1920px) { @content; }
+  } @else {
+    @media (min-width: 1200px) { @content; }
+  }
+}
+
+// Excelente breakpoint para tamanhos mais fluídos
+@mixin responsive ($point) {
+  @if $point == 'xs' {
+    @media (max-width: 767px) { @content; }
+  } @else if $point == 'sm' {
+    @media (min-width: 768px) { @content; }
+  } @else if $point == 'md' {
+    @media (min-width: 992px) { @content; }
+  } @else if $point == 'lg' {
+    @media (min-width: 1199px) { @content; }
+  }
+}

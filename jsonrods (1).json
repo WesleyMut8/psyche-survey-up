@@ -1,0 +1,25 @@
+{
+  "form_answer": [
+    {
+      "SEXO": 1.0,
+      "FAMILIA_MNT_RUIM": 2.0,
+      "SALARIO": 1500.0,
+      "HORAS": 35,
+      "ESCOLARIDADE": 11,
+      "MORADIA": 1.0,
+      "ATV_FISICA": 3.0,
+      "ALCOOL": 2.0,
+      "NAO_TRAB_MTV_SAUDE": 1.0,
+      "CONSUMO_SAL": 4.0,
+      "TRABALHA": 1.0,
+      "FUMA": 2.0,
+      "IMC": 26.7,
+      "PENSAMENTOS_NEGATIVOS": 3.0,
+      "CARNES": 2.0,
+      "ALIMENTOS_PREJUDICIAIS": 1.0,
+      "ALIMENTOS_SAUDAVEIS": 4.0,
+      "ESTADO_SAUDE": 3.0,
+      "CONSULTA_MEDICA": 1.0
+    }
+  ]
+}

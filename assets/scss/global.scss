@@ -1,0 +1,29 @@
+@import 'fonts';
+@import '_mixins';
+@import 'normalize';
+
+:root {
+  --sidebar-size: 3rem;
+  --appbar-height: 64px;
+  --breadcrumbs-height: 37px;
+  --v-tabs-height: 48px;
+}
+
+html {
+  overflow-y: auto !important;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-family: Roboto, sans-serif;
+}
+
+.v-card {
+  &__text  {
+    color: #222222 !important;
+  }
+}
+
+
