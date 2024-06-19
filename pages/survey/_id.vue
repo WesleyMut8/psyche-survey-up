@@ -16,7 +16,7 @@
       required></v-text-field>
     </div>
 
-    <div class="question-options" v-if="currentQuestion.type === 'boolean'">
+    <div v-if="currentQuestion.type === 'boolean'">
       <div v-for="(option, index) in currentQuestion.options" :key="index" class="question-option">
         <div class="radio-container">
           <label class="radio-label">
@@ -24,7 +24,6 @@
               type="radio"
               :id="option"
               :value="option"
-              v-model="selectedOption"
               @change="selectOption(option)"
             />
             <span class="custom-radio"></span>
@@ -57,6 +56,11 @@ export default {
       selectedOption: null, // Vincula-se apenas à opção selecionada
     };
   },
+  async beforeRouteEnter(to, from, next) {
+    next(vm => {
+      vm.$store.dispatch('fetchQuestions'); // Dispara ação para buscar perguntas
+    });
+  },
   async fetch({ store }) {
     if (!store.state.questions.length) {
       await store.dispatch('fetchQuestions');
@@ -69,15 +73,11 @@ export default {
   },
   methods: {
     selectOption(option) {
-      this.selectedOption = option;
+      this.$store.commit('selectOption', { questionId: this.currentQuestion.id, option });
     },
     nextQuestion() {
-      if (this.selectedOption !== null) {
-        // Processar a resposta aqui, se necessário
-        this.$store.dispatch('nextQuestion');
-        this.selectedOption = null; // Resetar a opção selecionada para a próxima pergunta
-      }
-    },
+      this.$store.dispatch('nextQuestion');
+    }
   },
 };
 </script>

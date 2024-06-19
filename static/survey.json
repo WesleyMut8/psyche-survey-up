@@ -1,24 +1,132 @@
 [
   {
     "id": 1,
+    "identicator": "SEXO",
     "type": "boolean",
-    "question": "Qual é a sua cor favorita?",
+    "question": "Qual seu sexo?",
     "options": [
-      "Vermelho",
-      "Azul",
-      "Verde",
-      "Amarelo"
+      "Masculino",
+      "Feminino",
+      "Prefiro não me identificar"
     ]
   },
   {
     "id": 2,
-    "type": "number",
-    "question": "Qual é o seu animal favorito?",
+    "identicator": "FAMILIA_MNT_RUIM",
+    "type": "boolean",
+    "question": "Com quantos familiares ou parentes você pode contar em momentos bons ou ruins?",
     "options": [
-      "Cachorro",
-      "Gato",
-      "Pássaro",
-      "Peixe"
+      "Nenhum",
+      "Um",
+      "Dois",
+      "Três ou mais"
+    ]
+  },
+  {
+    "id": 3,
+    "identicator": "SALARIO",
+    "type": "number",
+    "question": "Qual era o rendimento bruto mensal ou retirada que você fazia/faz normalmente no seu trabalho?(valor em dinheiro)",
+    "options": [
+      ""
+    ]
+  },
+  {
+    "id": 4,
+    "identicator": "HORAS",
+    "type": "number",
+    "question": "Quantas horas ___ trabalhava normalmente, por semana, nesse trabalho?",
+    "options": [
+      ""
+    ]
+  },
+  {
+    "id": 5,
+    "identicator": "ESCOLARIDADE",
+    "type": "boolean",
+    "question": "Qual foi o curso mais elevado que você frequentou?",
+    "options": [
+      "Creche",
+      "Pré-escola",
+      "Classe de alfabetização – CA",
+      "Alfabetização de jovens e adultos",
+      "Antigo primário (elementar)",
+      "Antigo ginasial (médio 1º ciclo)",
+      "Regular do ensino fundamental ou do 1º grau",
+      "Educação de jovens e adultos (EJA) ou supletivo do ensino fundamental",
+      "Antigo científico, clássico etc. (médio 2º ciclo)",
+      "Regular do ensino médio ou do 2º grau",
+      "Educação de jovens e adultos (EJA) ou supletivo do ensino médio",
+      "Graduação",
+      "Especialização de nível superior (duração mínima de 360 horas)",
+      "Mestrado",
+      "Doutorado"
+    ]
+  },
+  {
+    "id": 6,
+    "identicator": "MORADIA",
+    "type": "boolean",
+    "question": "Qual seu tipo de moradia?",
+    "options": [
+      "Casa",
+      "Apartamento",
+      "Habitação em casa de cômodos, cortiço ou similares"
+    ]
+  },
+  {
+    "id": 7,
+    "identicator": "ATV_FISICA",
+    "type": "boolean",
+    "question": "Nos últimos três meses, você praticou algum tipo de exercício físico ou esporte?",
+    "options": [
+      "Sim",
+      "Não"
+    ]
+  },
+  {
+    "id": 8,
+    "identicator": "ALCOOL",
+    "type": "boolean",
+    "question": "Com que frequência você costuma consumir alguma bebida alcoólica?",
+    "options": [
+      "Não bebo nunca",
+      "Menos de uma vez por mês",
+      "Uma vez ou mais por mês"
+    ]
+  },
+  {
+    "id": 9,
+    "identicator": "NAO_TRAB_MTV_SAUDE",
+    "type": "boolean",
+    "question": "Nas duas últimas semanas, você deixou de realizar quaisquer de suas atividades habituais (trabalhar, ir à escola, brincar, afazeres domésticos etc.) por motivo da própria saúde?",
+    "options": [
+      "Sim",
+      "Não"
+    ]
+  },
+  {
+    "id": 10,
+    "identicator": "CONSUMO_SAL",
+    "type": "boolean",
+    "question": "Considerando a comida preparada na hora e os alimentos industrializados, o(a) Sr(a) acha que o seu consumo de sal é:",
+    "options": [
+      "Muito Alto",
+      "Alto",
+      "Adequado",
+      "Baixo",
+      "Muito baixo",
+      "Ignorado"
+    ]
+  },
+  {
+    "id": 10,
+    "identicator": "CONSUMO_SAL",
+    "type": "boolean",
+    "question": "Nas últimas 4 semanas, você trabalhou ou estagiou, durante pelo menos uma hora, em alguma atividade remunerada em dinheiro?",
+    "options": [
+      "Sim",
+      "Não"
     ]
   }
 ]
